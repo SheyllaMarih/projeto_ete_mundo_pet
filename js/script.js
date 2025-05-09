@@ -9,7 +9,7 @@ function enviarFormulario (event) {
     Nome: $(nome)<br>
     Email: $(email)<br>
     Telefone: $(telefone)<br>
-`
+`;
 
 document.getElementById('mensagem-confirmacao').innerHTML = mensagem;
 }
